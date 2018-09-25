@@ -50,3 +50,17 @@ A002,R051,02-00-00,LEXINGTON AVE,456NQR,BMT,09-28-14,12:00:00,REGULAR,0004801304
 A002,R051,02-00-00,LEXINGTON AVE,456NQR,BMT,09-28-14,16:00:00,REGULAR,0004801463,0001629521,
 A002,R051,02-00-00,LEXINGTON AVE,456NQR,BMT,09-28-14,20:00:00,REGULAR,0004801737,0001629555,
 A002,R051,02-00-00,LEXINGTON AVE,456NQR,BMT,09-29-14,00:00:00,REGULAR,0004801836,0001629574,
+
+Here is a copy of an email i found online that explains what each of the header items mean:
+
+```
+My name's Katie, I'm a data reporter at Columbia, and I'm having some trouble parsing this NYC turnstile usage data. Talked to an MTA pr guy on the phone (who was super nice!) and he told me that a control area is kind of like a 'station' for a specific line, a remote unit is kind of like a 'booth' so the same station can have a couple booths, and the subunit channel position could represent a turnstile, but could also represent a collection of turnstiles--he wasn't sure. 
+
+he also told me  that basically what this was showing me was how many people entered every four hours (or every time that 'REGULAR' was written) and to probably ignore or sweep out the pieces of data with other words like 'LOGON' or 'DOORCLOSE' as these were aberrations and neither of us were sure what those might mean. Anyone here have any ideas?
+
+Thanks so much for all your help!
+
+all best,
+
+kt
+```
